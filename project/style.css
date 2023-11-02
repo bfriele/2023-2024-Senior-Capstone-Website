@@ -40,7 +40,7 @@
     content: '';
     height: 3px; 
     width: 0;
-    background: #009688;
+    background: #2a2dff;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -73,7 +73,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid #2a2dff;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -81,7 +81,7 @@ button{
     overflow: hidden;
 }
 span{
-    background: #009688;
+    background: #2a2dff;
     height: 100%;
     width: 100%;
     border-radius: 25px;

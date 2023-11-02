@@ -8,6 +8,7 @@
         <div class="navbar">
             <img src="figlogo.png" class="logo">
             <ul>
+                <li><a href="testingpage.html">Home</a></li>
                 <li><a href="newpage.html">Routine Builder</a></li>
                 <li><a href="routinesthisweek.html" target="_blank">Routines This Week</a></li>
                 <li><a href="scorecalculator.html" target="_blank">Score Calculator</a></li>
@@ -19,14 +20,17 @@
                 <h1>ABOUT ME</h1>
                 <p>Work in progress...</p> 
                 <div>
-                    <button onclick="openLink()" type="button"><span></span>Github</button>
-                    <button type="button"><span></span>BUTTON 2</button>
-
-                    <button onclick="openLink()">Open Link</button>
+                    <button onclick="openGithub()" type="button"><span></span>Github</button>
+                    <button onclick= "openYoutube()" type="button"><span></span>YouTube</button>
 
                     <script>
-                        function openLink() {
-                            window.open('https://www.example.com', '_blank');
+                        function openGithub() {
+                            window.open('https://github.com/bfriele/2023-2024-Senior-Capstone-Website', '_blank');
+                        }
+                    </script>
+                    <script>
+                        function openYoutube() {
+                            window.open('https://www.youtube.com/@brendanfrielegymnastics', '_blank');
                         }
                     </script>
 
